@@ -1,5 +1,4 @@
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 document.addEventListener('DOMContentLoaded', () => {
     /* --- 1. Custom Cursor and Magnetic Elements Logic --- */
     const cursor = document.querySelector('.custom-cursor');
@@ -112,13 +111,6 @@ document.addEventListener('DOMContentLoaded', () => {
             initSnowflakes();
         });
         class Snowflake {
-            x;
-            y;
-            radius;
-            speedX;
-            speedY;
-            opacity;
-            angle;
             constructor() {
                 this.x = Math.random() * width;
                 this.y = Math.random() * height;
@@ -171,4 +163,3 @@ document.addEventListener('DOMContentLoaded', () => {
         animateSnow();
     }
 });
-//# sourceMappingURL=script.js.map
