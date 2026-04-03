@@ -1,8 +1,8 @@
 :root {
-    /* Colors - Alpine White / Snow Mountain */
-    --clr-bg: #FCFCFC;
-    --clr-bg-alt: #F3F4F6;
-    --clr-text-main: #1C2434;
+    /* Colors - Alpine Mist / Snow Shadow Theme */
+    --clr-bg: #F8FAFC; 
+    --clr-bg-alt: #F1F5F9;
+    --clr-text-main: #1E293B;
     --clr-text-muted: #64748B;
     --clr-accent: #334155;
     
@@ -33,8 +33,8 @@ body {
     line-height: 1.6;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
-    background-image: radial-gradient(circle at 15% 50%, rgba(200, 210, 225, 0.15), transparent 40%),
-                      radial-gradient(circle at 85% 30%, rgba(200, 210, 225, 0.1), transparent 40%);
+    background-image: radial-gradient(circle at 10% 20%, rgba(203, 213, 225, 0.2), transparent 40%),
+                      radial-gradient(circle at 90% 80%, rgba(203, 213, 225, 0.15), transparent 40%);
 }
 
 #snow-canvas {
@@ -68,7 +68,7 @@ body {
     left: 0;
     width: 40px;
     height: 40px;
-    border: 1px solid rgba(28, 36, 52, 0.3);
+    border: 1px solid rgba(30, 41, 59, 0.3);
     border-radius: 50%;
     pointer-events: none;
     z-index: 9998;
@@ -84,8 +84,8 @@ body {
 .cursor-hover .custom-cursor-follower {
     width: 60px;
     height: 60px;
-    background-color: rgba(28, 36, 52, 0.05);
-    border-color: rgba(28, 36, 52, 0.8);
+    background-color: rgba(30, 41, 59, 0.05);
+    border-color: rgba(30, 41, 59, 0.8);
     backdrop-filter: blur(2px);
 }
 
@@ -135,7 +135,7 @@ h1, h2, h3 {
 }
 
 .navbar.scrolled {
-    background: rgba(252, 252, 252, 0.85);
+    background: rgba(248, 250, 252, 0.85); /* New clr-bg with transparency */
     backdrop-filter: blur(16px);
     padding: 1rem 4rem;
     border-bottom: 1px solid rgba(0,0,0,0.05);

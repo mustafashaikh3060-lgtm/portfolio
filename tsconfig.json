@@ -2,11 +2,13 @@
   "compilerOptions": {
     "target": "ES6",
     "module": "ESNext",
+    "rootDir": "src/ts",
+    "outDir": "dist/js",
     "strict": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
     "lib": ["DOM", "ES6"]
   },
-  "include": ["script.ts"]
+  "include": ["src/ts/main.ts"]
 }
