@@ -1,0 +1,7 @@
+node_modules/
+.DS_Store
+tsconfig.tsbuildinfo
+.github/
+# We keep script.js because it's the result of compilation and needed for local testing, 
+# but the build script in Actions will re-generate it anyway.
+# However, for GitHub Pages we want to make sure only clean files are deployed.
