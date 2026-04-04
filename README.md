@@ -38,5 +38,5 @@ I am a 2nd-year B.Tech Computer Science student at VIT Mumbai. I specialize in b
 3. **Run:** Open `dist/index.html` in your browser.
 
 ### Contact
-- **Email:** [abcdef@gmail.com](mailto:abcdef@gmail.com)
-- **Phone:** +91 123456789
+- **Email:** [mustafashaikh3060@gmail.com](mailto:mustafashaikh3060@gmail.com)
+- **Phone:** +91 9422969326
