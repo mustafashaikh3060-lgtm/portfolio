@@ -37,6 +37,8 @@ I am a 2nd-year B.Tech Computer Science student at VIT Mumbai. I specialize in b
 2. **Build:** `npm run build`
 3. **Run:** Open `dist/index.html` in your browser.
 
+---
+
 ### Contact
 - **Email:** [mustafashaikh3060@gmail.com](mailto:mustafashaikh3060@gmail.com)
 - **Phone:** +91 9422969326
