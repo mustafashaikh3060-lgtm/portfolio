@@ -2,9 +2,8 @@
   "name": "portfolio",
   "version": "1.0.0",
   "description": "my personal portfolio website",
-  "main": "script.js",
   "scripts": {
-    "build": "rm -rf dist && mkdir -p dist/js dist/css dist/images && tsc && cp src/css/main.css dist/css/ && cp public/index.html dist/ && cp public/images/profilepicture.jpg dist/images/",
+    "build": "rm -rf dist && mkdir -p dist/js dist/css dist/images && tsc && cp -r public/* dist/ && cp -r src/css/* dist/css/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -12,13 +11,13 @@
     "url": "git+https://github.com/mustafashaikh3060-lgtm/portfolio.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Mustafa Shaikh",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
     "url": "https://github.com/mustafashaikh3060-lgtm/portfolio/issues"
   },
-  "homepage": "https://github.com/mustafashaikh3060-lgtm/portfolio#readme",
+  "homepage": "https://mustafashaikh3060-lgtm.github.io/portfolio/",
   "devDependencies": {
     "typescript": "^6.0.2"
   }
